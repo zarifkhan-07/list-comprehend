@@ -1,6 +1,8 @@
-l=[1,2,3,4,5]
+l=int(input("Enter the number:"))
 print(l)
-even=[x for x in l if x%2==0]
-print("Even",even)
-odd=[x for x in l if x%2!=0]
-print("Odd",odd)
+odd=[x for x in range(l) if l%2!=0]
+print(odd)
+
+a=['mango','jackfruit','apple']
+b=[a.capitalize() for a in a]
+print(b)
